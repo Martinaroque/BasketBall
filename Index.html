@@ -83,7 +83,8 @@
         .thirdSection {
             max-width: 100%;
             margin: 0 auto;
-            background-color: grey;
+            background-color: #d9b650;
+            color: white;
         }
 
         .thirdSection p {
@@ -91,10 +92,35 @@
             line-height: 1;
             letter-spacing: 2px;
             margin-top: 20px;
+
         }
 
         .thirdSection img:hover {
             transform: scale(1.1);
+        }
+
+        .fourthSection img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .fourthSection {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #fde994;
+            padding: 30px;
+
         }
     </style>
 </head>
@@ -103,7 +129,7 @@
     <div class="container">
         <section class="firstSection">
 
-            <h1>Dear Basketball..</h1>
+            <h1>Dear Basketball... </h1>
             <h5>One of the best sports ever!</h5>
             <br />
             <a href="https://hoopheadspod.com/a-brief-history-of-basketball/" target="_blank"
@@ -138,9 +164,9 @@
                 played in the summer.
                 The NBA is made up of 30 teams and the WNBA of 12 teams.The best known teams are,<strong>Lakers,
                     Boston
-                    Celtics, Golden state, Miami Heat, San Antonio Spurs and Chicago bulls</strong>
-                <br />
-                <br />
+                    Celtics, Golden state, Miami Heat, San Antonio Spurs and Chicago bulls</strong></p>
+            <br />
+
             <div class="grid ">
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/044/original/San_Antonio_Spurs.svg.png?1691081851"
                     alt="">
@@ -155,9 +181,18 @@
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/049/original/chicago-bulls-logo-transparent.png?1691081890"
                     alt="">
             </div>
-            </p>
+        </section>
 
-
+        <section class="fourthSection">
+            <h4 class="text-center"> Top 3 players</h4>
+            <div class="grid2">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/056/original/michael-jordan-looks.jpg?1691087487"
+                    alt="">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/055/original/shaquille.PNG?1691087483"
+                    alt="">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/054/original/kobe.jpg?1691087479"
+                    alt="">
+            </div>
         </section>
     </div>
 </body>
